@@ -5,5 +5,6 @@ stderr_path "#{root}/log/unicorn.stderr.log"
 stdout_path "#{root}/log/unicorn.stdout.log"
 
 listen "/tmp/unicorn.piano_plus.sock"
+listen "8080"
 worker_processes 2
 timeout 30
